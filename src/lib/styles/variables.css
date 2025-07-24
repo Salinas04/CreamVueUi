@@ -1,0 +1,67 @@
+/* Cream Vue UI - CSS Variables */
+
+:root {
+  /* Colors */
+  --cream-primary: #42b883;
+  --cream-primary-dark: #33a06f;
+  --cream-primary-light: #65c89a;
+  --cream-secondary: #35495e;
+  --cream-secondary-dark: #2c3e50;
+  --cream-secondary-light: #486581;
+  
+  --cream-success: #10b981;
+  --cream-warning: #f59e0b;
+  --cream-error: #ef4444;
+  --cream-info: #3b82f6;
+  
+  --cream-gray-50: #f9fafb;
+  --cream-gray-100: #f3f4f6;
+  --cream-gray-200: #e5e7eb;
+  --cream-gray-300: #d1d5db;
+  --cream-gray-400: #9ca3af;
+  --cream-gray-500: #6b7280;
+  --cream-gray-600: #4b5563;
+  --cream-gray-700: #374151;
+  --cream-gray-800: #1f2937;
+  --cream-gray-900: #111827;
+  
+  --cream-white: #ffffff;
+  --cream-black: #000000;
+  
+  /* Typography */
+  --cream-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --cream-font-size-xs: 0.75rem;
+  --cream-font-size-sm: 0.875rem;
+  --cream-font-size-md: 1rem;
+  --cream-font-size-lg: 1.125rem;
+  --cream-font-size-xl: 1.25rem;
+  --cream-font-size-2xl: 1.5rem;
+  --cream-font-size-3xl: 1.875rem;
+  --cream-font-size-4xl: 2.25rem;
+  
+  /* Spacing */
+  --cream-spacing-xs: 0.25rem;
+  --cream-spacing-sm: 0.5rem;
+  --cream-spacing-md: 1rem;
+  --cream-spacing-lg: 1.5rem;
+  --cream-spacing-xl: 2rem;
+  --cream-spacing-2xl: 3rem;
+  
+  /* Border Radius */
+  --cream-radius-sm: 0.125rem;
+  --cream-radius-md: 0.25rem;
+  --cream-radius-lg: 0.5rem;
+  --cream-radius-xl: 0.75rem;
+  --cream-radius-full: 9999px;
+  
+  /* Shadows */
+  --cream-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --cream-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --cream-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --cream-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  /* Transitions */
+  --cream-transition-fast: 150ms;
+  --cream-transition-normal: 250ms;
+  --cream-transition-slow: 350ms;
+}

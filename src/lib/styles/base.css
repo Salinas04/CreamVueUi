@@ -1,0 +1,131 @@
+/* Cream Vue UI - Base Styles */
+@import './variables.css';
+
+/* Reset and base styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--cream-font-family);
+  font-size: var(--cream-font-size-md);
+  line-height: 1.5;
+  color: var(--cream-gray-900);
+  background-color: var(--cream-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: var(--cream-spacing-md);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--cream-font-size-4xl);
+}
+
+h2 {
+  font-size: var(--cream-font-size-3xl);
+}
+
+h3 {
+  font-size: var(--cream-font-size-2xl);
+}
+
+h4 {
+  font-size: var(--cream-font-size-xl);
+}
+
+h5 {
+  font-size: var(--cream-font-size-lg);
+}
+
+h6 {
+  font-size: var(--cream-font-size-md);
+}
+
+p {
+  margin-bottom: var(--cream-spacing-md);
+}
+
+a {
+  color: var(--cream-primary);
+  text-decoration: none;
+  transition: color var(--cream-transition-fast) ease;
+}
+
+a:hover {
+  color: var(--cream-primary-dark);
+}
+
+/* Utility classes */
+.cream-text-center {
+  text-align: center;
+}
+
+.cream-text-left {
+  text-align: left;
+}
+
+.cream-text-right {
+  text-align: right;
+}
+
+.cream-flex {
+  display: flex;
+}
+
+.cream-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.cream-items-center {
+  align-items: center;
+}
+
+.cream-justify-center {
+  justify-content: center;
+}
+
+.cream-justify-between {
+  justify-content: space-between;
+}
+
+.cream-w-full {
+  width: 100%;
+}
+
+.cream-h-full {
+  height: 100%;
+}
+
+/* Spacing utilities */
+.cream-m-xs { margin: var(--cream-spacing-xs); }
+.cream-m-sm { margin: var(--cream-spacing-sm); }
+.cream-m-md { margin: var(--cream-spacing-md); }
+.cream-m-lg { margin: var(--cream-spacing-lg); }
+.cream-m-xl { margin: var(--cream-spacing-xl); }
+
+.cream-mt-xs { margin-top: var(--cream-spacing-xs); }
+.cream-mt-sm { margin-top: var(--cream-spacing-sm); }
+.cream-mt-md { margin-top: var(--cream-spacing-md); }
+.cream-mt-lg { margin-top: var(--cream-spacing-lg); }
+.cream-mt-xl { margin-top: var(--cream-spacing-xl); }
+
+.cream-mb-xs { margin-bottom: var(--cream-spacing-xs); }
+.cream-mb-sm { margin-bottom: var(--cream-spacing-sm); }
+.cream-mb-md { margin-bottom: var(--cream-spacing-md); }
+.cream-mb-lg { margin-bottom: var(--cream-spacing-lg); }
+.cream-mb-xl { margin-bottom: var(--cream-spacing-xl); }
+
+.cream-p-xs { padding: var(--cream-spacing-xs); }
+.cream-p-sm { padding: var(--cream-spacing-sm); }
+.cream-p-md { padding: var(--cream-spacing-md); }
+.cream-p-lg { padding: var(--cream-spacing-lg); }
+.cream-p-xl { padding: var(--cream-spacing-xl); }
