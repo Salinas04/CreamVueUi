@@ -991,5 +991,3 @@ A versatile and beautiful alert component with various styles, animations, and i
 ## License
 
 [MIT](LICENSE)
-#   C r e a m V u e U i  
- 

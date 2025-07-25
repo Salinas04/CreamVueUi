@@ -22,7 +22,11 @@ const navItems = [
       { title: 'Button', path: '/components/button' },
       { title: 'Input', path: '/components/input' },
       { title: 'Card', path: '/components/card' },
-      { title: 'Alert', path: '/components/alert' }
+      { title: 'Alert', path: '/components/alert' },
+      { title: 'Badge', path: '/components/badge' },
+      { title: 'Avatar', path: '/components/avatar' },
+      { title: 'Toggle', path: '/components/toggle' },
+      { title: 'Accordion', path: '/components/accordion' }
     ]
   }
 ];

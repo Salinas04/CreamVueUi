@@ -6,6 +6,10 @@ import Button from './components/Button';
 import Input from './components/Input';
 import Card from './components/Card';
 import Alert from './components/Alert';
+import Badge from './components/Badge';
+import Avatar from './components/Avatar';
+import Toggle from './components/Toggle';
+import Accordion, { AccordionItem } from './components/Accordion';
 
 // Import styles
 import './styles/variables.css';
@@ -16,7 +20,12 @@ const components = {
   Button,
   Input,
   Card,
-  Alert
+  Alert,
+  Badge,
+  Avatar,
+  Toggle,
+  Accordion,
+  AccordionItem
 };
 
 // Create plugin
@@ -33,4 +42,4 @@ const CreamVueUI = {
 export default CreamVueUI;
 
 // Named exports for individual components
-export { Button, Input, Card, Alert };
+export { Button, Input, Card, Alert, Badge, Avatar, Toggle, Accordion, AccordionItem };
